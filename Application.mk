@@ -100,6 +100,7 @@ LIBWEBP_ENABLED       := true
 LIBXML2_ENABLED       := true
 LIBZLIB_ENABLED       := true
 LIBLCMS2_ENABLED      := true
+APP_SUPPORT_FLEXIBLE_PAGE_SIZES := true
 
 #------------------------------------------
 

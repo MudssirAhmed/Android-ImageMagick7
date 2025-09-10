@@ -52,6 +52,8 @@ LZMA_LIB_PATH                   := $(LOCAL_PATH)/xz-5.2.4
 BZLIB_LIB_PATH                  := $(LOCAL_PATH)/bzip-1.0.8
 LCMS_LIB_PATH                   := $(LOCAL_PATH)/liblcms2-2.9
 
+LOCAL_LDFLAGS += "-Wl,-z,max-page-size=16384"
+
 #-------------------------------------------------------------
 # Include all modules
 #-------------------------------------------------------------
